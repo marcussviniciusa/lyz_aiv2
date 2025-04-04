@@ -167,7 +167,7 @@ const QuestionnaireForm: React.FC = () => {
       setSuccessMessage(null);
       setError(null);
       
-      await planAPI.updateQuestionnaire(id as string, formData);
+      await planAPI.updateQuestionnaire(id as string, { questionnaire_data: formData });
       
       setSuccessMessage('Questionário salvo com sucesso!');
       
