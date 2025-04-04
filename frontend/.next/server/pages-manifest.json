@@ -2,9 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/auth/login": "pages/auth/login.js",
-  "/admin/dashboard": "pages/admin/dashboard.js",
-  "/dashboard": "pages/dashboard.js",
-  "/plans": "pages/plans.js"
+  "/plans/new": "pages/plans/new.js",
+  "/plans/[id]": "pages/plans/[id].js",
+  "/plans/[id]/questionnaire": "pages/plans/[id]/questionnaire.js",
+  "/plans/[id]/lab": "pages/plans/[id]/lab.js",
+  "/plans/[id]/tcm": "pages/plans/[id]/tcm.js"
 }

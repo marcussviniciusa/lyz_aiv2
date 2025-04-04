@@ -10,11 +10,6 @@ globalThis.__BUILD_MANIFEST = {
   "rootMainFiles": [],
   "rootMainFilesTree": {},
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -25,25 +20,30 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/admin/dashboard": [
+    "/plans/[id]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/admin/dashboard.js"
+      "static/chunks/pages/plans/[id].js"
     ],
-    "/auth/login": [
+    "/plans/[id]/lab": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/auth/login.js"
+      "static/chunks/pages/plans/[id]/lab.js"
     ],
-    "/dashboard": [
+    "/plans/[id]/questionnaire": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/dashboard.js"
+      "static/chunks/pages/plans/[id]/questionnaire.js"
     ],
-    "/plans": [
+    "/plans/[id]/tcm": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/plans.js"
+      "static/chunks/pages/plans/[id]/tcm.js"
+    ],
+    "/plans/new": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/plans/new.js"
     ]
   },
   "ampFirstPages": []
